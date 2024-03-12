@@ -4,6 +4,7 @@
   --backgrou-color-hover: #644b4f;
   --backgroud-white: #fff;
   --background-grey: #f2f2f2;
+  --link-color: #efa69d;
 }
 * {
   box-sizing: border-box;
@@ -111,7 +112,99 @@ a {
   margin-top: 5px;
   object-fit: cover;
 }
-
+.where-to-go {
+  background-color: var(--backgrou-color-hover);
+  color: var(--backgroud-white);
+  padding: 50px 35px;
+}
+.where-to-go-h1 {
+  padding-bottom: 50px;
+}
+.where-to-go-text-p1 {
+  padding-bottom: 15px;
+}
+.where-to-go-text-p2 {
+  padding-bottom: 45px;
+}
+.where-to-go-text-botton {
+  text-transform: uppercase;
+  background-color: var(--backgroud-white);
+  padding: 10px;
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 140px;
+  text-align: center;
+}
+.reviews {
+  text-align: center;
+  padding: 50px 35px;
+}
+.reviews-text h1 {
+  margin: 20px 0px;
+}
+.reviews-text p {
+  margin-bottom: 20px;
+}
+.reviews-bertie {
+  margin: 35px 0px;
+}
+.reviews-bertie-photo {
+  width: 100px;
+  height: 100px;
+  margin: 0px auto;
+}
+.reviews-bertie-photo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.reviews-bertie p {
+  margin-top: 20px;
+}
+.reviews-frank {
+  margin: 35px 0px;
+}
+.reviews-frank-photo {
+  width: 100px;
+  height: 100px;
+  margin: 0px auto;
+}
+.reviews-frank-photo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.reviews-frank p {
+  margin-top: 20px;
+}
+.foot {
+  display: flex;
+}
+.foot img {
+  width: 100%;
+  height: 100%;
+}
+.footer-information {
+  background-color: var(--background-color);
+  text-align: center;
+}
+.footer-information-cont {
+  padding: 20px 0px;
+}
+.footer-information-cont a {
+  color: var(--link-color);
+  text-decoration: underline;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+.footer-information p {
+  padding-top: 5px;
+  color: var(--backgroud-white);
+  font-size: 0.5rem;
+}
 @media (max-width: 768px) {
   .icon-cont {
     display: block;
