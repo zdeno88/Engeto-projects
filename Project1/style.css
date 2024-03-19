@@ -98,7 +98,7 @@ a {
   padding: 50px 10%;
   text-align: center;
 }
-.img img {
+.our-trips-img img {
   width: 100%;
   height: 100%;
 }
@@ -106,8 +106,7 @@ a {
   padding: 25px;
   background-color: var(--background-grey);
 }
-
-.img,
+.our-trips-img,
 .text-our-trips {
   margin-top: 5px;
   object-fit: cover;
@@ -261,7 +260,7 @@ a {
     border-radius: 5px;
   }
   .text-our-trips-cont {
-    margin-top: 27%;
+    margin-top: 30%;
   }
   .where-to-go {
     display: flex;
