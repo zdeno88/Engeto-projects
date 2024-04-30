@@ -1,0 +1,23 @@
+@media (max-width: 600px) {
+  nav {
+    display: none;
+    position: absolute;
+    top: 70px;
+    background-color: #9b0b0b;
+    width: 100%;
+  }
+  .menu-icon {
+    visibility: visible;
+    color: white;
+    font-size: 23px;
+    margin-right: 20px;
+  }
+  /* header {
+    position: relative;
+  } */
+  li {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+}
