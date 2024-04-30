@@ -16,7 +16,3 @@ icon.addEventListener("click", () => {
     cond = true;
   }
 });
-window.addEventListener("scroll", () => {
-  console.log("scroluji");
-  header.style.position = "fixed;";
-});
